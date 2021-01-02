@@ -2,11 +2,11 @@ function countOfAllIndexMatchingNumbers(nums) {
   // Insert code here;
   var total = 0;
   
-  for(var i = 0; i < nums.length; i++) { //we will loop through the array 
+  for(var i = 0; i < nums.length; i++) { 
     
-    if(nums[i] == i) {         //and check if the current value has any duplicates
+    if(nums[i] == i) {         
       
-      total++;                 //we check this for each index in the array
+      total++;                 
 
     }// end of if
     
