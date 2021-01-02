@@ -10,7 +10,7 @@ function countOfAllBooleansAndStrings(arr) {
     } //end of if
   } //end of for
 
-  return total++;
+  return total;
 } //end of fcn
 
 console.log(countOfAllBooleansAndStrings( [true, false, 16, "sample"] )); //should output 3
